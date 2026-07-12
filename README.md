@@ -39,9 +39,9 @@ every push to `main`.
 - Deployment workflow:
   `.github/workflows/deploy-pages.yml`
 
-If GitHub Pages has not been enabled for the repository yet, set **Settings >
-Pages > Source** to **GitHub Actions** once. After that, each push to `main`
-will rebuild and republish the site automatically.
+The deployment workflow also auto-enables GitHub Pages for the repository if
+needed, so pushes to `main` should rebuild and republish the site without any
+extra setup.
 
 ## Notes
 
