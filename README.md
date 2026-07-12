@@ -29,6 +29,20 @@ npm run preview
 `npm run build` outputs a static site into `dist/` that you can deploy
 anywhere (Vercel, Netlify, GitHub Pages, a plain static file host, etc).
 
+## Public website
+
+This repository is configured to publish automatically to **GitHub Pages** on
+every push to `main`.
+
+- Expected public URL:
+  `https://bluedeer111.github.io/SAT-Vocab-Roulette/`
+- Deployment workflow:
+  `.github/workflows/deploy-pages.yml`
+
+If GitHub Pages has not been enabled for the repository yet, set **Settings >
+Pages > Source** to **GitHub Actions** once. After that, each push to `main`
+will rebuild and republish the site automatically.
+
 ## Notes
 
 - The word bank, daily rotation, and all game logic live in
